@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity() {
         displayName.visibility = View.VISIBLE
         displayEmail.visibility = View.VISIBLE
 
-//        // Hiding the Keyboard after the user finishes typing
-//        val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-//        inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
+        // Hiding the Keyboard after the user finishes typing
+        val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
     }
 }
