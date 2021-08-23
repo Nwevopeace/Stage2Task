@@ -15,7 +15,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:src="@drawable/zuri"
         android:layout_gravity="center"/>
 
@@ -29,77 +29,31 @@
         android:gravity="center"
         android:layout_gravity="center"/>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nameLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp">
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Your Fullname"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/stateLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etState"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Your State of Origin"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/emailLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp">
+            android:hint="Fullname"
+            android:textColorHint="@color/white"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Your Email Address"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/phoneLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Your Phone number"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
+            android:hint="Email Address"
+            android:textColorHint="@color/white"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
 
     <TextView
         android:id="@+id/displayTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
         android:visibility="gone"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:gravity="center"/>
 
@@ -107,6 +61,8 @@
         android:id="@+id/displayName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
         android:visibility="gone"
         android:layout_gravity="center"
         android:gravity="center"/>
@@ -115,14 +71,18 @@
         android:id="@+id/displayState"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
         android:visibility="gone"
         android:layout_gravity="center"
+        android:textColor="@color/white"
         android:gravity="center"/>
 
     <TextView
         android:id="@+id/displayEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
         android:visibility="gone"
         android:layout_gravity="center"
         android:gravity="center"/>
@@ -131,6 +91,8 @@
         android:id="@+id/displayPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
         android:visibility="gone"
         android:layout_gravity="center"
         android:gravity="center"/>
